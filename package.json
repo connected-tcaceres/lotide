@@ -1,16 +1,14 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@realtylercaceres/lotide",
+  "version": "1.0.1",
+  "description": "lite version of lodash",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "chai": "^4.2.0"
-  },
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "chai": "^4.2.0"
   },
   "scripts": {
     "test": "mocha"
@@ -19,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/tylercaceres/lotide.git"
   },
-  "author": "",
+  "author": "realtylercaceres",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tylercaceres/lotide/issues"
