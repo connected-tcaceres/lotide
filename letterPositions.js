@@ -4,7 +4,6 @@ const letterPositions = function(sentence) {
   
   for (let i =0;i<sentence.length;i++) {
     if(!results[sentence[i]]){
-      //create as array
       results[sentence[i]] = [];
     }
     results[sentence[i]].push(i); 
@@ -13,5 +12,3 @@ const letterPositions = function(sentence) {
 };
 
 module.exports = letterPositions;
-
-// assertArraysEqual(letterPositions("hello").e,[1]);
